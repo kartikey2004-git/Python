@@ -1,0 +1,1 @@
+(letter.replace("<|Name|>","Kartik")).replace("<|Date|>","23-11-2024")
