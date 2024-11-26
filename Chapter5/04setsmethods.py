@@ -3,7 +3,33 @@ s.add(566)
 print(s,type(s))
 
 
+# Properties of sets
+
+# Sets are unordered
+# Sets are unindexed
+# There is no way to change items in sets
+# Sets cannot comtain duplicate values
+
+
+
+
 # Here are some of the most important set methods in Python:
+
+# In Python, len() can be used with a set to determine the number of elements it contains.
+
+
+my_set = {1, 2, 3, 4}
+print(len(my_set))  # Output: 4
+
+
+# Even if the set contains duplicate values when it's created, sets only store unique elements. So, duplicates are automatically removed, and len() will reflect the count of unique elements.
+
+# Example with duplicates:
+
+my_set = {1, 2, 2, 3, 4}
+print(len(my_set))  # Output: 4 (since duplicates are removed)
+
+
 
 # add(): Adds a single element to the set.
 
@@ -105,5 +131,34 @@ print(result)  # Output: True
 
 
 
+# 1. copy()
+#  Creates a shallow copy of a list, set, or dictionary.
+
+# copy() creates a new object that is a copy of the original object. For sets, it is used to avoid modifying the original set when making changes to a copy.
+
+original_set = {1, 2, 3}
+copied_set = original_set.copy()
+print(copied_set)  # Output: {1, 2, 3}
+
+# Modifying the copied set
+copied_set.add(4)
+print(copied_set)      # Output: {1, 2, 3, 4}
+print(original_set)    # Output: {1, 2, 3} (Unchanged)
+
+
+
+# 2. difference_update()
+# Modifies a set by removing elements found in another set.
+
+# difference_update() removes all elements from the original set that are present in the other set(s) passed as arguments. It directly alters the original set (in-place operation) rather than returning a new set.
+
+set_a = {1, 2, 3, 4}
+set_b = {3, 4, 5}
+
+set_a.difference_update(set_b)
+print(set_a)  # Output: {1, 2} (set_a modified)
+
 
 # These methods allow you to efficiently manage and manipulate sets in Python!
+
+

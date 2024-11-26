@@ -23,6 +23,25 @@ print(marks["Harry"]) # returns error if key is not present
 
 # Here are some common Python dictionary methods:
 
+
+#  The len() function can be used to get the number of items (key-value pairs) in a dictionary.
+
+my_dict = {
+    'name': 'Alice',
+    'age': 25,
+    'city': 'New York'
+}
+
+# Get the length of the dictionary (number of key-value pairs)
+length = len(my_dict)
+
+print(length)  # Output: 3
+
+# In this example, the len() function returns 3 because there are three key-value pairs in the my_dict dictionary.
+
+
+
+
 # dict.clear()
 # Removes all elements from the dictionary.
 my_dict = {"a": 1, "b": 2}
