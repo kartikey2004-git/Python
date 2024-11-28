@@ -15,6 +15,6 @@ if (
 ):
     print(f"you are passed with {int(total_percentage)} percent")
 else:
-    print(
-        f"you are failed with {int(total_percentage)} percentage, try again next year!"
-    )
+    print(f"you are failed with {int(total_percentage)} percentage, try again next year!")
+
+
