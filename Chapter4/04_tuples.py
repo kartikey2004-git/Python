@@ -31,10 +31,10 @@ result = tuple1 + tuple2  # Output: (1, 2, 3, 4)
 # Repetition (*)
 # Repeats a tuple a specified number of times.
 my_tuple = (1, 2)
-result = my_tuple * 3  # Output: (1, 2, 1, 2, 1, 2)
+result = my_tuple*3  # Output: (1, 2, 1, 2, 1, 2)
 
 
-# Membership (in)
+# Membership operator (in)
 # Checks if an item exists in a tuple.
 my_tuple = (1, 2, 3)
 print(2 in my_tuple)  # Output: True

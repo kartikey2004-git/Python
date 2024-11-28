@@ -4,11 +4,12 @@ friends = ["Apple","Orange",5,345.56,False,"Aakash","Rohan"]
 friends.append("Harry")
 # print(friends)
 
-l1 =[1,34,562,786,9687]
+l1 =[1,34,562,786,9687,6443,5613,3]
 # l1.sort()
+# print(l1)
 # l1.reverse()
 # l1.insert(3,122) # insert krdo 122 at the index 3 list mein
-value = l1.pop(3)
+value = l1.pop(3) #  index no 3 se value remove krdega 
 a = print(value) # print krega wo value jo  index no 3 se pop huyi hai
 print(l1)
 
@@ -16,5 +17,6 @@ print(l1)
 
 # Remove the "banana" element of the fruit list:
 
-fruits = ['apple', 'banana', 'cherry']
+fruits = ['apple', 'banana', 'cherry','banana']
 fruits.remove("banana")
+print(fruits)

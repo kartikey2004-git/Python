@@ -6,7 +6,7 @@ marks = {
 
 # basically concept of key value pair collection
 
-# print(marks,type(marks))
+print(marks,type(marks))
 print(marks["Harry"]) 
 # ye return krega ek value jo ki uss key mein saved hai
 

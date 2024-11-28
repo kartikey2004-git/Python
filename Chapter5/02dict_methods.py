@@ -58,6 +58,7 @@ print(new_dict)  # Output: {'a': 1, 'b': 2}
 
 
 
+
 # dict.fromkeys(keys, value)
 # Creates a new dictionary from a given sequence of keys with all values set to a specified value.
 keys = ["a", "b", "c"]
