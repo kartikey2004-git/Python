@@ -2,10 +2,10 @@
 name = "harry"
 # strings are immutable
 
-#indexing of strings
+#indexing of strings(indexing starts from 0 to n-1)
 # Python strings are "immutable" which means they cannot be changed after they are created
 
-# Slcing in string
+# Slicing in string
 nameshort = name[0:3] 
 print(nameshort) 
 character1 = name[1]

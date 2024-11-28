@@ -1,4 +1,4 @@
-name = "Harry"
+name = "harry"
 print(len(name))
 print(name.endswith("ry"))
 print(name.startswith("H"))
@@ -45,8 +45,8 @@ print(s.strip())  # Output: "hello"
 
 # replace()
 # Replaces occurrences of a substring with another substring.
-s = "Hello, world"
-print(s.replace("world", "Python"))  # Output: "Hello, Python"
+s = "Hello world"
+print(s.replace("world", "Python"))  # Output: "Hello Python"
 
 
 # split()
@@ -109,3 +109,5 @@ print(s.isdigit())  # Output: True
 
 
 # These functions are widely used for string manipulation in Python and cover a variety of tasks like searching, formatting, and validating strings.
+
+

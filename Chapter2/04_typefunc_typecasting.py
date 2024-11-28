@@ -1,9 +1,9 @@
-a = 31
-type_a = type(a)
-print(type_a)  # <class 'int'>
+# a = 31
+# type_a = type(a)
+# print(type_a)  # <class 'int'>
 
-b = "hitesh"
-print(type(b)) # <class 'string'>
+# b = "hitesh"
+# print(type(b)) # <class 'string'>
 
 
 # Type casting(str,float,int)
@@ -14,4 +14,3 @@ print(t)
 print(type(b))
 
 # untill unless wo type conversion legal ho
-

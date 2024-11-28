@@ -21,10 +21,11 @@ b-=3 #decrement the value of b by  3 and then assign to b
 print(b)
 
 
+
 # Comparison operators ki return value humesha boolean hoti hai
 
 # Comparison Operators 
-d = 5!=4
+d = (5!=4)
 print(d)
 
 # Logical Operators 
@@ -50,4 +51,5 @@ print("True or False is ",False and False)
 
 #not operator 
 print(not(False))
+
 
