@@ -29,3 +29,69 @@ different access modes of file handling in python
 6. a+
 7. rb(reads in binary in file) if we use r access mode then the binary data would be read in characters or text
 8. wb(write in binary in file)
+
+If we are using a open function in file handling , It is mandatory tob close the file , or use excpetion handling in order to avoid exception and error
+
+```Python
+with open ("file name", access mode) as f
+      f.read()
+```
+
+if we are using with statement for opening a file theere is no need to handle the exception or close the file it itself takes care of releasing the resources (memory, identifiers)
+
+
+
+reading a file
+read()
+readlines()
+readline()
+
+
+
+In Python, read(), readlines(), and readline() are methods used to read from a file. Each of these methods works differently:
+
+1. read()
+Description: Reads the entire contents of a file as a single string.
+
+```Python
+with open('example.txt', 'r') as file:
+    content = file.read()
+    print(content)
+```
+Use Case: When you need to read the entire file content at once. This is suitable for small files, but for large files, it can consume a lot of memory.
+
+
+2. readlines()
+Description: Reads the entire file and returns a list where each element is a line from the file.
+
+```Python
+with open('example.txt', 'r') as file:
+    lines = file.readlines()
+    print(lines)
+```
+
+Use Case: When you want to process each line of the file as an item in a list. This is useful when you need to iterate over the lines but still want all of them in memory.
+
+3. readline()
+Description: Reads a single line from the file. Each time it's called, it reads the next line.
+```Python
+with open('example.txt', 'r') as file:
+    line = file.readline()
+    while line:
+        print(line, end='')
+        line = file.readline()
+```
+
+Use Case: When you want to read and process the file line by line, especially for large files, so you don't load the entire file into memory at once.
+
+
+Summary:
+read(): Reads the whole file at once.
+readlines(): Reads all lines and returns them as a list.
+readline(): Reads one line at a time.
+You can choose based on whether you need to process the whole file at once or line by line.
+
+read(): it reads all the data from the text file and return it in string format 
+the parametric value represnts the no of bytes and it will return the mention bytes in string format only
+
+readline(): will return a single line into string format
