@@ -1,7 +1,7 @@
 # import matplotlib
 
-import matplotlib.pyplot as plt
-import numpy as np
+# import matplotlib.pyplot as plt
+# import numpy as np
 
 # print(matplotlib.__version__)
 
@@ -31,8 +31,10 @@ import numpy as np
 # matplotlib.use('Agg')
 
 
-xpoints = np.array([1, 8])
-ypoints = np.array([3, 10])
+# import matplotlib.pyplot as plt
+# import numpy as np
+# # xpoints = np.array([0, 8])
+# ypoints = np.array([0, 10])
 
-plt.plot(xpoints, ypoints)
-plt.show()
+# plt.plot(ypoints)
+# plt.show()

@@ -1,4 +1,4 @@
-# f = open("02.py","rt")
+# f = open("C:\\Users\\karti\\Pictures\\Screenshots\\OneDrive\\Documents\\papa.txt","rt")
 # print(f.readline())
 
 
@@ -29,9 +29,17 @@
 # f = open("02.py", "r")
 # print(f.read())
 
+
+
 # f = open("myfile.txt","x")
 
-# f = open("myfile.txt", "w")
+# f = open("myfile.txt", "a")
+# f.write("hi")
+# f.close()
+
+
+# f = open("02.py","r")
+# print(f.read())
 
 
 # import os
@@ -42,14 +50,12 @@
 
 
 # import os
-# if os.path.exists("03.py"):
-#   os.remove("03.py")
+# if os.path.exists("myfile.txt"):
+#   os.remove("myfile.txt")
 # else:
 #   print("The file does not exist")
 
 
 # import os
-# os.rmdir("Chapter9")
-
-
+# os.rmdir("hi")
 

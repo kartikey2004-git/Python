@@ -413,5 +413,72 @@ Creating Pie Charts
 
 With Pyplot, you can use the pie() function to draw pie charts:
 
+As you can see the pie chart draws one piece (called a wedge) for each value in the array
 
+
+By default the plotting of the first wedge starts from the x-axis and moves counterclockwise:
+
+Counterclockwise direction is the opposite of clockwise direction
+
+
+Note: The size of each wedge is determined by comparing the value with all the other values, by using this formula:
+
+The value divided by the sum of all values: x/sum(x)
+
+
+
+Labels
+
+Add labels to the pie chart with the labels parameter.
+
+The labels parameter must be an array with one label for each wedge:
+
+
+
+Start Angle
+
+As mentioned the default start angle is at the x-axis,
+
+but you can change the start angle by specifying a startangle parameter.
+
+The startangle parameter is defined with an angle in degrees, default angle is 0:
+
+
+Explode
+
+Maybe you want one of the wedges to stand out? The explode parameter allows you to do that.
+
+The explode parameter , if specified, and not None
+must be an array with one value for each wedge.
+
+Each value represents how far from the center each wedge is displayed:
+
+The values in the explode list typically range from 0 to any positive float, where:
+
+0 means no explosion (the slice remains in place).
+Any positive float specifies how far the slice will be moved outward from the center.
+
+
+Shadow
+
+Add a shadow to the pie chart by setting the shadows parameter to True:
+
+
+Colors
+
+You can set the color of each wedge with the colors parameter.
+
+The colors parameter, if specified, must be an array with one value for each wedge:
+
+You can use Hexadecimal color values, any of the 140 supported color names, or one of these shortcuts:
+
+
+Legend
+
+To add a list of explanation for each wedge, use the legend() function:
+
+
+Legend With Header
+
+To add a header to the legend, add the title parameter to the legend function.
 

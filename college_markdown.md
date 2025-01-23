@@ -1,7 +1,7 @@
 whenever we open a file using open assign to that file , file gets temporarily stored in memory or in buffer
 
 Open a file 
-f = open("path","access mode)
+f = open("path","access mode")
 
 
 path parameter of open function can be defined in two ways 

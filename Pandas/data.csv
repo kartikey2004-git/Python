@@ -1,0 +1,6 @@
+ID,Name,Age,Gender,Math,Science,English,History,Total Marks,Percentage,Grade
+1,Alice Johnson,17,Female,88,92,85,90,355,88.75,A
+2,Bob Smith,18,Male,76,81,79,84,320,80.0,B
+3,Carol White,17,Female,95,89,93,91,368,92.0,A+
+4,David Brown,18,Male,65,74,70,72,281,70.25,C
+5,Eva Green,17,Female,90,94,88,92,364,,A+
