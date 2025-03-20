@@ -109,3 +109,98 @@ for num in range(start, end + 1):
 
 
 
+
+# Program to calculate the factorial of a number
+
+number = int(input("Enter a number: "))
+
+factorial = 1
+
+if number < 0:
+    print("Factorial does not exist for negative numbers.")
+elif number == 0:
+    print("The factorial of 0 is 1.")
+else:
+    for i in range(1, number + 1):
+        factorial *= i
+    print(f"The factorial of {number} is {factorial}.")
+
+
+
+
+# Using recursion
+
+# function ke andar same function ko call krde toh Recursion hota hai
+
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+number = int(input("Enter a number: "))
+
+if number < 0:
+    print("Factorial does not exist for negative numbers.")
+else:
+    print(f"The factorial of {number} is {factorial(number)}.")
+
+
+
+
+
+
+# Program to print fibonacci series
+
+
+
+n = int(input("Enter the number of terms: "))
+
+a, b = 0, 1
+
+if n <= 0:
+    print("Please enter a positive integer.")
+elif n == 1:
+    print(f"Fibonacci series up to {n} term: {a}")
+else:
+    print("Fibonacci series:")
+    for _ in range(n):
+        print(a, end=" ")
+        a, b = b, a + b
+
+
+
+
+# Using recursion
+
+
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
+n = int(input("Enter the number of terms: "))
+
+if n <= 0:
+    print("Please enter a positive integer.")
+else:
+    print("Fibonacci series:")
+    for i in range(n):
+        print(fibonacci(i), end=" ")
+
+
+
+# Program to print the multiplication table of a given number
+
+number = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(f"{number} x {i} = {number * i}")
+
+
+
+
